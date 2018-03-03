@@ -9,7 +9,7 @@ class Student < User
     self.knowledge << string_of_knowledge
   end
 
-  def output 
+  def output
     steve.knowledge.each {|x| puts x}
   end
 end
