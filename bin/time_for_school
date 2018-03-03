@@ -20,7 +20,10 @@ steve.learn(some_knowledge)
 steve.learn(some_knowledge)
 steve.learn(some_knowledge)
 
+def output
+steve.knowledge.each {|x| puts x}
+end
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Steve just learned this important knowledge: '#{output}' from Avi"
 
 steve.knowledge.each {|x| puts x}
