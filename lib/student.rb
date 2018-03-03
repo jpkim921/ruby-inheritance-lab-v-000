@@ -8,4 +8,8 @@ class Student < User
   def learn(string_of_knowledge)
     self.knowledge << string_of_knowledge
   end
+
+  def output 
+    steve.knowledge.each {|x| puts x}
+  end
 end
