@@ -22,4 +22,5 @@ steve.learn(avi.teach)
 steve.learn(avi.teach)
 
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.each {|lesson| puts lesson}}' from Avi"
+puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+
