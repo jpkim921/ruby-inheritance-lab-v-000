@@ -20,4 +20,5 @@ lessons = steve.learn(some_knowledge)
 
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts steve.knowledge
+p steve.knowledge
+
