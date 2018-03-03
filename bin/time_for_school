@@ -12,11 +12,6 @@ avi = Teacher.new
 avi.first_name = "Avi"
 avi.last_name = "Flombaum"
 
-jim  = User.new
-jim.first_name = "Jim"
-jim.last_name = "Crowe"
-
-jim.learn("test sentence")
 
 
 some_knowledge = avi.teach
