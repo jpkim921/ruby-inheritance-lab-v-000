@@ -10,6 +10,7 @@ class Student < User
   end
 
   def output
-    steve.knowledge.each {|x| puts x}
+    self.knowledge.each {|x| puts x}
   end
+
 end
